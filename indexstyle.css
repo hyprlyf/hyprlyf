@@ -208,6 +208,9 @@
     font-size: 36px;
     margin-left: 50px;
     margin-top:20px;
+    text-decoration:none;
+    color:white;
+    font-weight:normal;
   }
   #line{
     background-color:white;
@@ -375,6 +378,9 @@ h4{
         font-size: 36px;
         margin-left: 50px;
         margin-top:20px;
+        text-decoration:none;
+        color:white;
+        font-weight:normal;
       }
       #line{
         background-color:white;
@@ -532,6 +538,9 @@ h4{
         font-size: 36px;
         margin-left: 50px;
         margin-top:20px;
+        text-decoration:none;
+        color:white;
+        font-weight:normal;
       }
       #line{
         background-color:white;
