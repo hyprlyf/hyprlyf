@@ -225,7 +225,7 @@
   }
   
 .hero{
-    background-image:url('../img/img1.jpg');
+    background-image:url('img1.jpg');
     background-size:cover;
     background-position:center;
     height:300px;
@@ -383,7 +383,7 @@ h4{
         margin:3px;
       }
     .hero{
-        background-image:url('../img/img1.jpg');
+        background-image:url('img1.jpg');
         background-size:cover;
         background-position:center;
         height:300px;
@@ -540,7 +540,7 @@ h4{
         
     
     .hero{
-        background-image:url('../img/img1.jpg');
+        background-image:url('img1.jpg');
         background-size:cover;
         background-position:center;
         height:300px;
@@ -652,7 +652,7 @@ h4{
         display:none;
     }
     .hero{
-        background-image:url('../img/img1.jpg');
+        background-image:url('img1.jpg');
         background-size:cover;
         background-position:center;
         height:300px;
