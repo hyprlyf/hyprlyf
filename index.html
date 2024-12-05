@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HYPLYF | Web Development Solutions</title>
+    <link rel="stylesheet" href="indexstyle.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <!---navigation--->
+    <div class="header">
+        <div id="logo">
+            <a href="index.html" id="logoname">HYPLYF</a>
+        </div>
+        <div id="menu">
+            <a href="index.html" id="menu-content">Home</a>
+            <a href="about.html" id="menu-content">About</a> <!--page 1-->
+            <a href="services.html" id="menu-content">Services</a>
+        </div>
+        <div id="buttons">
+            <a href="" id="button-1">Start project</a>
+        </div>
+    </div>
+   
+    <div class="header-mob">
+        <div id="logo">
+            <a href="index.html" id="logoname">HYPLYF</a>
+        </div>
+        <div class="lines">
+            <div style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <div id="line"></div>
+                <div id="line"></div>
+                <div id="line"></div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <div id="line-2"></div>
+                    <div id="line-3"></div>
+                </a>
+                <a href="index.html" id="menu-content">Home</a>
+                <a href="about.html" id="menu-content">About</a> <!--page 1-->
+                <a href="services.html" id="menu-content">Services</a>
+                <a href="" id="menu-content">Start project</a>
+              </div>
+    </div>
+    </div>
+    <!---hero-heading-->
+    <div class="hero">
+        <div class="cover">
+        <h1 id="hero-h1">Innovative Digital Solutions for Your Business Needs</h1>
+        <p id="hero-p">Empowering your brand with cutting-edge technology and user-centric experiences that stand out.
+        </p>
+        <a href="" id="hero-action-button">Start project</a> <!--page 1-->
+    </div>
+    </div>
+    <!--about--->
+    <div class="about">
+        <h2 id="about-h2">About</h2>
+        <h3 id="about-h3">On a Mission to Drive Your Business Success Forward</h3>
+        <p id="about-p">We specialize in delivering top-notch web and mobile app development services tailored to meet
+            the unique needs of our clients. With a dedicated team of skilled developers, we strive to bring innovative
+            digital solutions to life, empowering businesses to reach new heights. Connect with us to turn your vision
+            into reality</p>
+        <a href="about.html" id="about-button">Know more</a> <!--page 1-->
+    </div>
+    <!--service-->
+    <div class="service">
+        <h2 id="service-h2">Our Services</h2>
+        <p id="service-p">We create custom digital solutions that empower your business. Our dedicated team leverages
+            the latest technology to enhance user experiences and accelerate growth.</p>
+        <div id="service-box-2">
+            <h3 id="service-h3">Web Development</h3>
+            <p id="service-p2">From sleek landing pages to full-scale eCommerce platforms, we create engaging,
+                responsive websites that drive results and reflect your brand's essence</p>
+            <a href="services.html" id="service-button">Learn more</a> <!--page 1-->
+        </div>
+    </div>
+    <!--getstart-->
+    <div class="getstart">
+        <h2 id="getstart-h2">Get Start</h2>
+        <p id="getstart-p">We deliver innovative web development solutions that enhance user experiences. Our team
+            creates responsive, visually appealing websites that reflect your brand and drive engagement.</p>
+        <a href="" id="getstart-button">Get Start Your Project</a>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div id="footer-box-1">
+            <h4>Legal</h4>
+            <a href="copyright.html" id="box-1-link">Copyright</a> <!--page 1-->
+            <a href="terms_and_conditions.html" id="box-1-link">Terms & Conditions</a> <!--page 1-->
+            <a href="privacy_policy.html" id="box-1-link">Privacy Policy</a> <!--page 1-->
+        </div>
+        <div id="footer-box-2">
+            <h4>Social Media</h4>
+            <a href="" id="box-2-link">Instagram</a>
+            <a href="" id="box-2-link">LinkedIn</a>
+            <a href="" id="box-2-link">Facebook</a>
+        </div>
+    </div>
+    <div class="footer-6">
+        <div id="copy">
+            &copy; 2024 Hyplyf Pvt. Ltd. All Rights Reserved.
+        </div>
+         <div id="copy-6">
+            <a href="" id="logoname">HYPLYF</a>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+</body>
+</html>
