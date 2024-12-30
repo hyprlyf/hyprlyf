@@ -170,6 +170,7 @@ li{
     padding:5px 10px;
     border-radius:8px;
     cursor:pointer;
+    text-decoration:none;
     transition-duration:0.3s;
 }
 #box-web #pro-but:hover{
