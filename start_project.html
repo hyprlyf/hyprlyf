@@ -4,60 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .contact-form {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-        }
-        .contact-form h2 {
-            margin-bottom: 20px;
-            color: #333;
-            text-align: center;
-        }
-        .contact-form label {
-            display: block;
-            margin-bottom: 5px;
-            color: #555;
-        }
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        .contact-form button {
-            width: 100%;
-            padding: 10px;
-            background: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="startProjectStyle.css">
+    <link rel="icon" href="favicon/hyp1.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JPH9Z115WJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JPH9Z115WJ');
+</script>
 </head>
 <body>
+     <!---navigation--->
+     <div class="header">
+        <div id="logo">
+            <a href="index.html" id="logoname">HYPRLYF</a>
+        </div>
+        <div id="menu">
+            <a href="index.html" id="menu-content">Home</a>
+            <a href="about.html" id="menu-content">About</a> <!--page 1-->
+            <a href="services.html" id="menu-content">Services</a>
+        </div>
+        <div id="buttons">
+            <a href="" id="button-1">Start project</a>
+        </div>
+    </div>
+
+    <div class="header-mob">
+        <div id="logo">
+            <a href="index.html" id="logoname">HYPRLYF</a>
+        </div>
+        <div class="lines">
+            <div style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <div id="line"></div>
+                <div id="line"></div>
+                <div id="line"></div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fa fa-close"></i>
+                </a>
+                <a href="index.html" id="menu-content">Home</a>
+                <a href="about.html" id="menu-content">About</a> <!--page 1-->
+                <a href="services.html" id="menu-content">Services</a>
+                <a href="" id="menu-content">Start project</a>
+              </div>
+    </div>
+    </div>
+    <div class="contact-box-0">
     <div class="contact-form">
         <h2>Contact Us</h2>
         <form action="mailto:hyplife6@gmail.com" method="post" enctype="text/plain">
@@ -73,6 +70,40 @@
             <button type="submit">Send Message</button>
         </form>
     </div>
+</div>
+      <!--footer-->
+      <div class="footer">
+        <div id="footer-box-1">
+            <h4>Legal</h4>
+            <a href="copyright.html" id="box-1-link">Copyright</a> <!--page 1-->
+            <a href="terms_and_conditions.html" id="box-1-link">Terms & Conditions</a> <!--page 1-->
+            <a href="privacy_policy.html" id="box-1-link">Privacy Policy</a> <!--page 1-->
+        </div>
+        <div id="footer-box-2">
+            <h4>Social Media</h4>
+            <a href="" id="box-2-link">Instagram</a>
+            <a href="" id="box-2-link">LinkedIn</a>
+            <a href="" id="box-2-link">Facebook</a>
+        </div>
+    </div>
+
+    <div class="footer-6">
+        <div id="copy">
+            &copy; 2024 Hyprlyf Pvt. Ltd. All Rights Reserved.
+        </div>
+        <div id="copy-6">
+            <a href="" id="logoname-1">HYPRLYF</a>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
 </body>
 </html>
 
